@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+.npm
+
+# Build de producción
+dist/
+build/
+
+# Variables de entorno (NUNCA subir esto)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Cache de herramientas
+.eslintcache
+.stylelintcache
