@@ -30,9 +30,11 @@
 |---|---|---|
 | **Node.js** | v20.x LTS "Iron" | Es la versión LTS activa (Long Term Support). Garantiza soporte hasta abril 2026. Hostinger también la soporta. Nunca usar versiones impares (19, 21) en producción: son experimentales. |
 | **npm** | v10.x (viene con Node 20) | Incluido con Node 20. Es más rápido que npm 9 y tiene mejor manejo de paquetes duplicados. |
-| **Vite** | v5.x | El bundler más rápido del ecosistema React hoy. Reemplaza a Create React App (CRA), que está abandonado. Arranca el dev server en milisegundos gracias a ESModules nativos. Genera builds optimizados para producción. |
-| **React** | v18.x | Versión estable actual. Incluye Concurrent Mode, Suspense mejorado y hooks modernos. |
-| **React DOM** | v18.x | Par de React, siempre la misma versión. |
+| **Vite** | v8.0.10 | El bundler más rápido del ecosistema React hoy. Reemplaza a Create React App (CRA), que está abandonado. Arranca el dev server en milisegundos gracias a ESModules nativos. Genera builds optimizados para producción. |
+| **@vitejs/plugin-react** | v6.0.1 | Plugin oficial de Vite para React. Habilita JSX, Fast Refresh y optimizaciones de React. Debe mantenerse en sync con la versión de Vite. |
+| **esbuild** | v0.28.0 | Minificador ultrarrápido usado internamente por Vite para el build de producción. |
+| **React** | v18.3.1 | Versión estable actual. Incluye Concurrent Mode, Suspense mejorado y hooks modernos. |
+| **React DOM** | v18.3.1 | Par de React, siempre la misma versión. |
 | **ESLint** | v8.x | El linter estándar de JavaScript/React. Detecta errores de código antes de que ocurran. |
 | **Prettier** | v3.x | Formateador de código automático. Elimina debates sobre estilo en el equipo. |
 | **Husky** | v9.x | Ejecuta scripts antes de cada commit (Git hooks). Impide subir código sin formato o con errores. |
@@ -152,7 +154,7 @@ cd ~/Documentos  # o la carpeta que prefieras
 # - Todo en minúsculas
 # - Palabras separadas por guiones (no espacios, no mayúsculas, no guiones bajos)
 # - Descriptivo y corto
-npm create vite@5 agencia-kleos -- --template react
+npm create vite@latest agencia-kleos -- --template react
 
 # Cuando te pregunte:
 # ✔ Select a framework: › React
