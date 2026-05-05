@@ -23,8 +23,11 @@ export default defineConfig({
     rollupOptions: {
       output: {
         // Dividir el bundle en chunks para mejor caché del navegador
-        manualChunks: {
-          vendor: ['react', 'react-dom'], // React va en su propio chunk separado
+        // ✅ Vite 8 requiere función
+        manualChunks: (id) => {
+          if (id.includes('react') || id.includes('react-dom')) {
+            return 'vendor';
+          }
         },
       },
     },
