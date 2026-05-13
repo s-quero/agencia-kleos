@@ -8,19 +8,18 @@
 ## 📋 Tabla de Contenidos
 
 1. [Resumen del Stack](#1-resumen-del-stack)
-2. [Paso 0 — Instalar herramientas en Mac Mini](#2-paso-0--instalar-herramientas-en-mac-mini)
-3. [Paso 1 — Crear el proyecto con Vite + React](#3-paso-1--crear-el-proyecto-con-vite--react)
-4. [Paso 2 — Estructura de carpetas profesional](#4-paso-2--estructura-de-carpetas-profesional)
-5. [Paso 3 — Configurar ESLint y Prettier](#5-paso-3--configurar-eslint-y-prettier)
-6. [Paso 4 — Configurar Husky + Commitlint (Conventional Commits)](#6-paso-4--configurar-husky--commitlint-conventional-commits)
-7. [Paso 5 — Inicializar Git y subir a GitHub](#7-paso-5--inicializar-git-y-subir-a-github)
-8. [Paso 6 — Flujo de trabajo en equipo (Git Workflow)](#8-paso-6--flujo-de-trabajo-en-equipo-git-workflow)
-9. [Paso 7 — Convención de Commits (Conventional Commits)](#9-paso-7--convención-de-commits-conventional-commits)
-10. [Paso 8 — Configurar y desplegar en Hostinger](#10-paso-8--configurar-y-desplegar-en-hostinger)
-11. [Paso 9 — Variables de entorno](#11-paso-9--variables-de-entorno)
-12. [Archivos de configuración explicados línea a línea](#12-archivos-de-configuración-explicados-línea-a-línea)
-13. [Comandos rápidos del día a día](#13-comandos-rápidos-del-día-a-día)
-14. [Preguntas frecuentes (FAQ)](#14-preguntas-frecuentes-faq)
+2. [Paso 1 — Crear el proyecto con Vite + React](#3-paso-1--crear-el-proyecto-con-vite--react)
+3. [Paso 2 — Estructura de carpetas profesional](#4-paso-2--estructura-de-carpetas-profesional)
+4. [Paso 3 — Configurar ESLint y Prettier](#5-paso-3--configurar-eslint-y-prettier)
+5. [Paso 4 — Configurar Husky + Commitlint (Conventional Commits)](#6-paso-4--configurar-husky--commitlint-conventional-commits)
+6. [Paso 5 — Inicializar Git y subir a GitHub](#7-paso-5--inicializar-git-y-subir-a-github)
+7. [Paso 6 — Flujo de trabajo en equipo (Git Workflow)](#8-paso-6--flujo-de-trabajo-en-equipo-git-workflow)
+8. [Paso 7 — Convención de Commits (Conventional Commits)](#9-paso-7--convención-de-commits-conventional-commits)
+9. [Paso 8 — Configurar y desplegar en Hostinger](#10-paso-8--configurar-y-desplegar-en-hostinger)
+10. [Paso 9 — Variables de entorno](#11-paso-9--variables-de-entorno)
+11. [Archivos de configuración explicados línea a línea](#12-archivos-de-configuración-explicados-línea-a-línea)
+12. [Comandos rápidos del día a día](#13-comandos-rápidos-del-día-a-día)
+13. [Preguntas frecuentes (FAQ)](#14-preguntas-frecuentes-faq)
 
 ---
 
